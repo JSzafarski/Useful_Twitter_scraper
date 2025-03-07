@@ -18,7 +18,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--disable-blink-features=AutomationControlled')  # Avoid detection
 driver = webdriver.Chrome(options=options)
 
-API_TOKEN = '7728085553:AAFeNizPwI46wmOdPCX8MbKzEaqk4iNA3LA'
+API_TOKEN = '' #use your own telegram api key
 bot = telebot.TeleBot(API_TOKEN)
 
 def time_converter(epoch_time):
