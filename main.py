@@ -270,7 +270,7 @@ def main(): #change to check it once but only if its over 1h old
         small_account_blacklist = [line.strip() for line in file]  # Strip removes trailing newlines
     with open(pinged_tokens_file, "r") as file:
         pinged_tokens = [line.strip() for line in file]  # Strip removes trailing newlines
-    username = "" # YOUR USERNAME
+    username = "" # YOUR USERNAME (needs to move to an .env file)
     password = "" # YOU PASSWORD
     #TODO possibly use multiple accounts if one runs out of daily limit or use twitter premium?
     # Login to Twitter
